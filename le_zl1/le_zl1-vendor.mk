@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/leeco/le_zl1/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/leeco/le_zl1/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/leeco/le_zl1/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/leeco/le_zl1/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/le_zl1/proprietary/lib64/hw/gxfingerprint5118m.default.so:system/lib64/hw/gxfingerprint5118m.default.so \
     vendor/leeco/le_zl1/proprietary/lib64/hw/hdmi_cec.msm8996.so:system/lib64/hw/hdmi_cec.msm8996.so \
