@@ -317,6 +317,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/mmi_sim.so:system/vendor/lib64/mmi_sim.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/sensors.oem.so:system/vendor/lib64/sensors.oem.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib64/sensors.hal.tof.so:system/vendor/lib64/sensors.hal.tof.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib64/libqfp-service.so:system/vendor/lib64/libqfp-service.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:system/vendor/lib/hw/activity_recognition.msm8996.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:system/vendor/lib/hw/gatekeeper.msm8996.so \
