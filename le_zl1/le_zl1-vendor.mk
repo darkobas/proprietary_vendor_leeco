@@ -105,6 +105,15 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/leeco/le_zl1/proprietary/lib/hw/hdmi_cec.msm8996.so:system/lib/hw/hdmi_cec.msm8996.so \
     vendor/leeco/le_zl1/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
+    vendor/leeco/le_zl1/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
+    vendor/leeco/le_zl1/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
+    vendor/leeco/le_zl1/proprietary/lib/libletv_algo_jni.so:system/lib/libletv_algo_jni.so \
+    vendor/leeco/le_zl1/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
+    vendor/leeco/le_zl1/proprietary/lib/libmpkernel.so:system/lib/libmpkernel.so \
+    vendor/leeco/le_zl1/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
+    vendor/leeco/le_zl1/proprietary/lib/libmputility.so:system/lib/libmputility.so \
+    vendor/leeco/le_zl1/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
+    vendor/leeco/le_zl1/proprietary/lib/libzeusisCameraAlgoSceneDetection.so:system/lib/libzeusisCameraAlgoSceneDetection.so \
     vendor/leeco/le_zl1/proprietary/lib/libamipengine.so:system/lib/libamipengine.so \
     vendor/leeco/le_zl1/proprietary/lib/libarcimgutilsbase.so:system/lib/libarcimgutilsbase.so \
     vendor/leeco/le_zl1/proprietary/lib/libarcimgutils.so:system/lib/libarcimgutils.so \
@@ -168,8 +177,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/leeco/le_zl1/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/leeco/le_zl1/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/leeco/le_zl1/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
-    vendor/leeco/le_zl1/proprietary/vendor/etc/audio_output_policy_letv.conf:system/vendor/etc/audio_output_policy_letv.conf \
     vendor/leeco/le_zl1/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/hw/activity_recognition.msm8996.so:system/vendor/lib64/hw/activity_recognition.msm8996.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
