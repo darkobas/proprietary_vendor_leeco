@@ -1310,6 +1310,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
     vendor/leeco/le_zl1/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/leeco/le_zl1/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/leeco/le_zl1/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/leeco/le_zl1/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
