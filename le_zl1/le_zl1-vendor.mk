@@ -111,9 +111,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/lib64/libfpnav5118m.so:system/lib64/libfpnav5118m.so \
     vendor/leeco/le_zl1/proprietary/lib64/libfpservice5118m.so:system/lib64/libfpservice5118m.so \
     vendor/leeco/le_zl1/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
+    vendor/leeco/le_zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.vendor.msm8996.so \
     vendor/leeco/le_zl1/proprietary/lib/hw/hdmi_cec.msm8996.so:system/lib/hw/hdmi_cec.msm8996.so \
     vendor/leeco/le_zl1/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/leeco/le_zl1/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
+    vendor/leeco/le_zl1/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
+    vendor/leeco/le_zl1/proprietary/lib/libletv_algo_jni.so:system/lib/libletv_algo_jni.so \
     vendor/leeco/le_zl1/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/leeco/le_zl1/proprietary/lib/libmpkernel.so:system/lib/libmpkernel.so \
     vendor/leeco/le_zl1/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
@@ -133,8 +136,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
     vendor/leeco/le_zl1/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
     vendor/leeco/le_zl1/proprietary/lib/libarcsoft_smart_denoise.so:system/lib/libarcsoft_smart_denoise.so \
+    vendor/leeco/le_zl1/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/leeco/le_zl1/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/leeco/le_zl1/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/leeco/le_zl1/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/leeco/le_zl1/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/leeco/le_zl1/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/leeco/le_zl1/proprietary/lib/rfsa/adsp/libarcsoft_antishaking_skel.so:system/lib/rfsa/adsp/libarcsoft_antishaking_skel.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so \
