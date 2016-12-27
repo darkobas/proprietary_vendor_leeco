@@ -111,7 +111,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/lib64/libfpnav5118m.so:system/lib64/libfpnav5118m.so \
     vendor/leeco/le_zl1/proprietary/lib64/libfpservice5118m.so:system/lib64/libfpservice5118m.so \
     vendor/leeco/le_zl1/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/leeco/le_zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.vendor.msm8996.so \
+    vendor/leeco/le_zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/leeco/le_zl1/proprietary/lib/hw/hdmi_cec.msm8996.so:system/lib/hw/hdmi_cec.msm8996.so \
     vendor/leeco/le_zl1/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/leeco/le_zl1/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
