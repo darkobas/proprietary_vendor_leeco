@@ -55,8 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/leeco/le_zl1/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/leeco/le_zl1/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/leeco/le_zl1/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
-    vendor/leeco/le_zl1/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
     vendor/leeco/le_zl1/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/leeco/le_zl1/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/leeco/le_zl1/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
