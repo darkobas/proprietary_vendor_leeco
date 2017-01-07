@@ -139,6 +139,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/leeco/le_zl1/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/leeco/le_zl1/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/leeco/le_zl1/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    vendor/leeco/le_zl1/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     vendor/leeco/le_zl1/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/leeco/le_zl1/proprietary/lib/rfsa/adsp/libarcsoft_antishaking_skel.so:system/lib/rfsa/adsp/libarcsoft_antishaking_skel.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so:system/vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so \
