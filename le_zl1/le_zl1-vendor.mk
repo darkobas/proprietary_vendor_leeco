@@ -191,6 +191,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
@@ -1321,8 +1323,27 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
-    vendor/leeco/le_zl1/proprietary/vendor/app/colorservice/colorservice.apk:system/vendor/app/colorservice/colorservice.apk \
+    vendor/leeco/le_zl1/proprietary/vendor/app/colorservice/colorservice.apk:system/app/colorservice/colorservice.apk \
     vendor/leeco/le_zl1/proprietary/bin/set_wifi_mac:system/bin/set_wifi_mac \
+    vendor/leeco/le_zl1/proprietary/etc/cne/wqeclient/profile1.xml:system/etc/cne/wqeclient/profile1.xml \
+    vendor/leeco/le_zl1/proprietary/etc/cne/wqeclient/profile2.xml:system/etc/cne/wqeclient/profile2.xml \
+    vendor/leeco/le_zl1/proprietary/etc/cne/wqeclient/profile3.xml:system/etc/cne/wqeclient/profile3.xml \
+    vendor/leeco/le_zl1/proprietary/etc/cne/wqeclient/profile4.xml:system/etc/cne/wqeclient/profile4.xml \
+    vendor/leeco/le_zl1/proprietary/etc/cne/wqeclient/profile5.xml:system/etc/cne/wqeclient/profile5.xml \
+    vendor/leeco/le_zl1/proprietary/priv-app/CNEService/CNEService.apk:system/priv-app/CNEService/CNEService.apk \
+    vendor/leeco/le_zl1/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/leeco/le_zl1/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/leeco/le_zl1/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/leeco/le_zl1/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/leeco/le_zl1/proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk:system/priv-app/dpmserviceapp/dpmserviceapp.apk \
+    vendor/leeco/le_zl1/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/leeco/le_zl1/proprietary/vendor/app/ims/ims.apk:system/app/ims/ims.apk \
+    vendor/leeco/le_zl1/proprietary/vendor/app/imssettings/imssettings.apk:system/app/imssettings/imssettings.apk \
+    vendor/leeco/le_zl1/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/leeco/le_zl1/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
