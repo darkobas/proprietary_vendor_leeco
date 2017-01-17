@@ -1362,6 +1362,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/leeco/le_zl1/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/leeco/le_zl1/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
+    vendor/leeco/le_zl1/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/leeco/le_zl1/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
