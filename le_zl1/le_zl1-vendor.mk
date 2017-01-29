@@ -18,11 +18,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
     vendor/leeco/le_zl1/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/leeco/le_zl1/proprietary/bin/iop:system/bin/iop \
-    vendor/leeco/le_zl1/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/leeco/le_zl1/proprietary/bin/nvm_service:system/bin/nvm_service \
     vendor/leeco/le_zl1/proprietary/bin/qfp-daemon:system/bin/qfp-daemon \
     vendor/leeco/le_zl1/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/leeco/le_zl1/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/leeco/le_zl1/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/leeco/le_zl1/proprietary/bin/yep_qmi_server:system/bin/yep_qmi_server \
     vendor/leeco/le_zl1/proprietary/bin/yepdiag:system/bin/yepdiag \
     vendor/leeco/le_zl1/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
@@ -62,18 +62,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/leeco/le_zl1/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/leeco/le_zl1/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/leeco/le_zl1/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/leeco/le_zl1/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/leeco/le_zl1/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
-    vendor/leeco/le_zl1/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/leeco/le_zl1/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/leeco/le_zl1/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/leeco/le_zl1/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/leeco/le_zl1/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
-    vendor/leeco/le_zl1/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/leeco/le_zl1/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/leeco/le_zl1/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/leeco/le_zl1/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/leeco/le_zl1/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/leeco/le_zl1/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/leeco/le_zl1/proprietary/etc/sound_trigger_mixer_paths_wcd9330.xml:system/etc/sound_trigger_mixer_paths_wcd9330.xml \
@@ -98,20 +88,17 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/leeco/le_zl1/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/leeco/le_zl1/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/leeco/le_zl1/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/leeco/le_zl1/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/leeco/le_zl1/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/leeco/le_zl1/proprietary/lib64/hw/fingerprint.msm8996.so:system/lib64/hw/fingerprint.msm8996.so \
     vendor/leeco/le_zl1/proprietary/lib64/hw/gxfingerprint5118m.default.so:system/lib64/hw/gxfingerprint5118m.default.so \
     vendor/leeco/le_zl1/proprietary/lib64/hw/hdmi_cec.msm8996.so:system/lib64/hw/hdmi_cec.msm8996.so \
-    vendor/leeco/le_zl1/proprietary/lib64/hw/local_time.default.so:system/lib64/hw/local_time.default.so \
     vendor/leeco/le_zl1/proprietary/lib64/libfp_client5118m.so:system/lib64/libfp_client5118m.so \
     vendor/leeco/le_zl1/proprietary/lib64/libfpnav5118m.so:system/lib64/libfpnav5118m.so \
     vendor/leeco/le_zl1/proprietary/lib64/libfpservice5118m.so:system/lib64/libfpservice5118m.so \
     vendor/leeco/le_zl1/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/leeco/le_zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.vendor.msm8996.so \
     vendor/leeco/le_zl1/proprietary/lib/hw/hdmi_cec.msm8996.so:system/lib/hw/hdmi_cec.msm8996.so \
-    vendor/leeco/le_zl1/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/leeco/le_zl1/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
     vendor/leeco/le_zl1/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
     vendor/leeco/le_zl1/proprietary/lib/libletv_algo_jni.so:system/lib/libletv_algo_jni.so \
@@ -167,10 +154,21 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so
 
 PRODUCT_PACKAGES += \
+    com.qualcomm.location \
+    libloc_api_v02 \
+    datastatusnotification \
+    embms \
+    fastdormancy \
+    CNEService \
+    dpmserviceapp \
+    colorservice \
+    ims \
+    imssettings \
     libthermalclient \
     QtiTelephonyService \
     shutdownlistener \
     TimeService \
+    libTimeService \
     qcrilmsgtunnel \
     qcnvitems \
     qcrilhook
@@ -262,13 +260,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libmdtpdemojni.so:system/vendor/lib64/libmdtpdemojni.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libmdtp.so:system/vendor/lib64/libmdtp.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libmm-color-convertor.so:system/vendor/lib64/libmm-color-convertor.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
@@ -322,9 +313,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
@@ -1278,8 +1267,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libvpphvx.so:system/vendor/lib/libvpphvx.so \
@@ -1302,6 +1289,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
+    vendor/leeco/le_zl1/proprietary/vendor/etc/perf-profile8.conf:system/vendor/etc/perf-profile8.conf \
+    vendor/leeco/le_zl1/proprietary/vendor/etc/perf-profile7.conf:system/vendor/etc/perf-profile7.conf \
     vendor/leeco/le_zl1/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
     vendor/leeco/le_zl1/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
     vendor/leeco/le_zl1/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
@@ -1321,22 +1310,17 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
-    vendor/leeco/le_zl1/proprietary/vendor/app/colorservice/colorservice.apk:system/app/colorservice/colorservice.apk \
     vendor/leeco/le_zl1/proprietary/bin/set_wifi_mac:system/bin/set_wifi_mac \
     vendor/leeco/le_zl1/proprietary/etc/cne/wqeclient/profile1.xml:system/etc/cne/wqeclient/profile1.xml \
     vendor/leeco/le_zl1/proprietary/etc/cne/wqeclient/profile2.xml:system/etc/cne/wqeclient/profile2.xml \
     vendor/leeco/le_zl1/proprietary/etc/cne/wqeclient/profile3.xml:system/etc/cne/wqeclient/profile3.xml \
     vendor/leeco/le_zl1/proprietary/etc/cne/wqeclient/profile4.xml:system/etc/cne/wqeclient/profile4.xml \
     vendor/leeco/le_zl1/proprietary/etc/cne/wqeclient/profile5.xml:system/etc/cne/wqeclient/profile5.xml \
-    vendor/leeco/le_zl1/proprietary/priv-app/CNEService/CNEService.apk:system/priv-app/CNEService/CNEService.apk \
     vendor/leeco/le_zl1/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/leeco/le_zl1/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/leeco/le_zl1/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/leeco/le_zl1/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/leeco/le_zl1/proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk:system/priv-app/dpmserviceapp/dpmserviceapp.apk \
     vendor/leeco/le_zl1/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/leeco/le_zl1/proprietary/vendor/app/ims/ims.apk:system/app/ims/ims.apk \
-    vendor/leeco/le_zl1/proprietary/vendor/app/imssettings/imssettings.apk:system/app/imssettings/imssettings.apk \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
@@ -1357,7 +1341,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
     vendor/leeco/le_zl1/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/leeco/le_zl1/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
-    vendor/leeco/le_zl1/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/leeco/le_zl1/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/leeco/le_zl1/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/leeco/le_zl1/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
@@ -1367,8 +1350,30 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib64/libcryptfs_hw.so:system/vendor/lib64/libcryptfs_hw.so \
+    vendor/leeco/le_zl1/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/leeco/le_zl1/proprietary/vendor/qcril.db:system/vendor/qcril.db
+
+PRODUCT_COPY_FILES += \
+     vendor/leeco/le_zl1/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
+     vendor/leeco/le_zl1/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+     vendor/leeco/le_zl1/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so
+
+#GPS addon
+PRODUCT_COPY_FILES += \
+    vendor/leeco/le_zl1/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
+    vendor/leeco/le_zl1/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/leeco/le_zl1/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/leeco/le_zl1/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
+    vendor/leeco/le_zl1/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/leeco/le_zl1/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib64/libevent_observer.so:system/vendor/lib64/libevent_observer.so
+#APTX
+PRODUCT_COPY_FILES += \
+    vendor/leeco/le_zl1/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/leeco/le_zl1/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff
