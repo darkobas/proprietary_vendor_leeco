@@ -97,7 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/lib64/libfpnav5118m.so:system/lib64/libfpnav5118m.so \
     vendor/leeco/le_zl1/proprietary/lib64/libfpservice5118m.so:system/lib64/libfpservice5118m.so \
     vendor/leeco/le_zl1/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/leeco/le_zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.vendor.msm8996.so \
+    vendor/leeco/le_zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/leeco/le_zl1/proprietary/lib/hw/hdmi_cec.msm8996.so:system/lib/hw/hdmi_cec.msm8996.so \
     vendor/leeco/le_zl1/proprietary/lib/libLetvCameraImageSDK.so:system/lib/libLetvCameraImageSDK.so \
     vendor/leeco/le_zl1/proprietary/lib/libcamera_letv_algo.so:system/lib/libcamera_letv_algo.so \
@@ -1350,7 +1350,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib64/libcryptfs_hw.so:system/vendor/lib64/libcryptfs_hw.so \
     vendor/leeco/le_zl1/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/leeco/le_zl1/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
@@ -1374,6 +1373,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so
+
+PRODUCT_COPY_FILES += \
+    vendor/leeco/le_zl1/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff
