@@ -66,21 +66,12 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/leeco/le_zl1/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/leeco/le_zl1/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/leeco/le_zl1/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
-    vendor/leeco/le_zl1/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/leeco/le_zl1/proprietary/etc/sound_trigger_mixer_paths_wcd9330.xml:system/etc/sound_trigger_mixer_paths_wcd9330.xml \
-    vendor/leeco/le_zl1/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
-    vendor/leeco/le_zl1/proprietary/etc/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml \
-    vendor/leeco/le_zl1/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
-    vendor/leeco/le_zl1/proprietary/etc/tinyproxy.conf:system/etc/tinyproxy.conf \
     vendor/leeco/le_zl1/proprietary/etc/usf/form_factor_mtp.cfg:system/etc/usf/form_factor_mtp.cfg \
     vendor/leeco/le_zl1/proprietary/etc/usf_post_boot.sh:system/etc/usf_post_boot.sh \
     vendor/leeco/le_zl1/proprietary/etc/usf/readme.txt:system/etc/usf/readme.txt \
     vendor/leeco/le_zl1/proprietary/etc/usf_settings.sh:system/etc/usf_settings.sh \
     vendor/leeco/le_zl1/proprietary/etc/usf/version.txt:system/etc/usf/version.txt \
     vendor/leeco/le_zl1/proprietary/etc/virtual-spn-conf-by-efspn.xml:system/etc/virtual-spn-conf-by-efspn.xml \
-    vendor/leeco/le_zl1/proprietary/etc/wifi/wigig_p2p_supplicant.conf:system/etc/wifi/wigig_p2p_supplicant.conf \
-    vendor/leeco/le_zl1/proprietary/etc/wifi/wigig_supplicant.conf:system/etc/wifi/wigig_supplicant.conf \
     vendor/leeco/le_zl1/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/leeco/le_zl1/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/leeco/le_zl1/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -100,7 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/lib64/libfpservice5118m.so:system/lib64/libfpservice5118m.so \
     vendor/leeco/le_zl1/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/leeco/le_zl1/proprietary/lib/hw/hdmi_cec.msm8996.so:system/lib/hw/hdmi_cec.msm8996.so \
-    vendor/leeco/le_zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
+    vendor/leeco/le_zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.vendor.msm8996.so \
     vendor/leeco/le_zl1/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/leeco/le_zl1/proprietary/lib/libmpkernel.so:system/lib/libmpkernel.so \
     vendor/leeco/le_zl1/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
@@ -1367,12 +1358,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libualutil.so:system/vendor/lib64/libualutil.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libusndroute.so:system/vendor/lib/libusndroute.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib/libllvm-qgl.so:system/vendor/lib/libllvm-qgl.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
-    vendor/leeco/le_zl1/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib64/libusndroute.so:system/vendor/lib64/libusndroute.so \
     vendor/leeco/le_zl1/proprietary/vendor/lib/libtm_interface.so:system/vendor/lib/libtm_interface.so
 
