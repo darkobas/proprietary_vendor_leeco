@@ -91,7 +91,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/le_zl1/proprietary/lib64/libfpservice5118m.so:system/lib64/libfpservice5118m.so \
     vendor/leeco/le_zl1/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/leeco/le_zl1/proprietary/lib/hw/hdmi_cec.msm8996.so:system/lib/hw/hdmi_cec.msm8996.so \
-    vendor/leeco/le_zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.vendor.msm8996.so \
+    vendor/leeco/le_zl1/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
     vendor/leeco/le_zl1/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/leeco/le_zl1/proprietary/lib/libmpkernel.so:system/lib/libmpkernel.so \
     vendor/leeco/le_zl1/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
